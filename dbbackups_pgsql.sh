@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # crontab example:
-# 1 4 * * * /usr/local/bin/backuppgsql daily
-# 1 5 * * 0 /usr/local/bin/backuppgsql weekly
+# 1 4 * * * /usr/local/bin/dbbackups_pgsql daily
+# 1 5 * * 0 /usr/local/bin/dbbackups_pgsql weekly
 
 if [ "$1" != "daily" ] && [ "$1" != "weekly" ]; then
         echo "Syntax: $(basename $0) daily|weekly"
