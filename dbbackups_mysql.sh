@@ -3,8 +3,8 @@
 # UNTESTED!
 
 # crontab example:
-# 1 4 * * * /usr/local/bin/backupmysql daily
-# 1 5 * * 0 /usr/local/bin/backupmysql weekly
+# 1 4 * * * /usr/local/bin/dbbackups_mysql daily
+# 1 5 * * 0 /usr/local/bin/dbbackups_mysql weekly
 
 if [ "$1" != "daily" ] && [ "$1" != "weekly" ]; then
         echo "Syntax: $(basename $0) daily|weekly"
