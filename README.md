@@ -1,0 +1,3 @@
+# DB_Backupscripts
+Backup the Databases of Wordpress, TT-RSS, Owncloud, ...
+
