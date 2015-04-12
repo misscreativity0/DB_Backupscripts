@@ -40,3 +40,5 @@ function backup_table()
 # create backups
 backup_table "ttrss"
 backup_table "owncloud"
+
+# restore backups: http://www.postgresql.org/docs/8.1/static/backup.html#BACKUP-DUMP-RESTORE
