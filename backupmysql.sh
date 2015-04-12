@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# TODO:
-# Connect via SSH with keys
+# UNTESTED!
 
 # crontab example:
 # 1 4 * * * /usr/local/bin/backupmysql daily
@@ -13,10 +12,11 @@ if [ "$1" != "daily" ] && [ "$1" != "weekly" ]; then
 fi
 
 DATENOW=$(date "+%F_%T")
-DB_USER="root"
-USERNAME="CHANGEME"
-BACKUPROOT="/home/$USERNAME/pgsql_backups/$1/"
-export PGPASSWORD="CHANGEME"
+DB_NAME=""
+DB_USER="mysql"
+DB_PASSWD="CHANGEME"
+DB_HOST="CHANGEME"
+BACKUPROOT="/home/$USERNAME/mysql_backups/$1/"
 
 
 function backup_table()
