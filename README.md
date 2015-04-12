@@ -1,4 +1,4 @@
 # DB_Backupscripts
-Backup the Databases (PostgreSQL or MySQL) of Wordpress, TT-RSS, Owncloud, ...
+  *  Backup the Databases (PostgreSQL or MySQL) of Wordpress, TT-RSS, Owncloud, ...
 
-Restore the Databases (currently only PostgreSQL)
+  *  Restore the Databases (currently only PostgreSQL)
